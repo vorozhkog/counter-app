@@ -14,5 +14,6 @@
   "gui_template": "src/gui.html",
   "task_location": "workspace_tasks",
   "isolate": true,
-  "system": false
+  "icon": "https://img.icons8.com/fluent/96/000000/source-code.png",
+  "icon_background": "#FFFFFF"
 }
