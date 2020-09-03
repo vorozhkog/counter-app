@@ -40,11 +40,17 @@ def main():
             "state": None,
             "context": None,
             "command": "preprocessing",
-        }
+        }#,
+        # {
+        #     "state": None,
+        #     "context": None,
+        #     "command": "stop",
+        # }
     ]
 
     # Run application service
     my_app.run(data=data, state=state, initial_events=initial_events)
+    my_app.wait_all()
 
 
 if __name__ == "__main__":
