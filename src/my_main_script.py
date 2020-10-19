@@ -3,6 +3,7 @@ import random
 import string
 import supervisely_lib as sly
 
+
 my_app = sly.AppService()
 
 LENGTH = int(os.environ['modal.state.length'])
@@ -50,7 +51,6 @@ def main():
 
     # Run application service
     my_app.run(data=data, state=state, initial_events=initial_events)
-    my_app.wait_all()
 
 
 if __name__ == "__main__":
