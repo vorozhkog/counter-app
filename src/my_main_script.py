@@ -41,12 +41,7 @@ def main():
             "state": None,
             "context": None,
             "command": "preprocessing",
-        }#,
-        # {
-        #     "state": None,
-        #     "context": None,
-        #     "command": "stop",
-        # }
+        }
     ]
 
     # Run application service
