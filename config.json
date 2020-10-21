@@ -5,7 +5,7 @@
     "development"
   ],
   "description": "Working demo, use it as a template for your custom apps",
-  "docker_image": "docker.deepsystems.io/supervisely/five/base-py-sdk-internal:apps2",
+  "docker_image": "supervisely/base-py-sdk:6",
   "main_script": "src/my_main_script.py",
   "modal_template": "src/modal.html",
   "modal_template_state": {
