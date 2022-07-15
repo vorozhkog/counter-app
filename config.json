@@ -5,7 +5,7 @@
     "development"
   ],
   "description": "Working demo, use it as a template for your custom apps",
-  "docker_image": "supervisely/base-py-sdk:6",
+  "docker_image": "supervisely/base-py-sdk:6.35.0",
   "main_script": "src/my_main_script.py",
   "modal_template": "src/modal.html",
   "modal_template_state": {
