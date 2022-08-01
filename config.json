@@ -1,19 +1,11 @@
 {
-  "name": "Hello World App",
+  "name": "Hello World!",
   "type": "app",
-  "categories": [
-    "development"
-  ],
-  "description": "Working demo, use it as a template for your custom apps",
-  "docker_image": "supervisely/base-py-sdk:6.35.0",
-  "main_script": "src/my_main_script.py",
-  "modal_template": "src/modal.html",
-  "modal_template_state": {
-    "length": 5
-  },
-  "gui_template": "src/gui.html",
-  "task_location": "application_sessions",
-  "isolate": true,
-  "icon": "https://img.icons8.com/fluent/96/000000/source-code.png",
+  "categories": ["development"],
+  "description": "Demonstrates how to turn your python script into Supervisely App",
+  "docker_image": "supervisely/base-py-sdk:6.50.0",
+  "main_script": "src/main.py",
+  "task_location": "workspace_tasks",
+  "icon": "https://user-images.githubusercontent.com/12828725/182186256-5ee663ad-25c7-4a62-9af1-fbfdca715b57.png",
   "icon_background": "#FFFFFF"
 }
