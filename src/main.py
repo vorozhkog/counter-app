@@ -7,8 +7,7 @@ load_dotenv("local.env")
 
 def main():
     name = os.environ["context.userLogin"]
-    print("Hello World!")
-    print("This app is run by user:")
+    print("Hello World! This app is run by user:")
     tprint(name)
 
 
