@@ -1,7 +1,6 @@
 {
   "main_script": "src/main.py",
   "headless": true,
-
   "name": "Hello World!",
   "description": "Demonstrates how to turn your python script into Supervisely App",
   "categories": ["development"],
