@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from art import tprint
 
 # load ENV variables for debug
+# has no effect in production
 load_dotenv("local.env")
 
 
